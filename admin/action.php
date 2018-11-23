@@ -5,9 +5,9 @@ $pass = $_POST['pass'];
    // require_once 'action.php';
     
     $host = "localhost";
-    $dbUsername = "id6636891_guruprasath";
-    $dbPassword = "1234king";
-    $dbname = "id6636891_aameccse";
+    $dbUsername = "user";
+    $dbPassword = "pass";
+    $dbname = "name";
     //create connection
     $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);
     if (mysqli_connect_error()) {

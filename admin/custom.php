@@ -16,9 +16,9 @@ if (!isset($_SESSION['nID'])){
 
 //connection
 $db_host = 'localhost'; 
-$db_user = 'id6636891_guruprasath'; 
-$db_pass = '1234king'; 
-$db_name = 'id6636891_aameccse';
+$db_user = 'user'; 
+$db_pass = 'pass'; 
+$db_name = 'name';
 
 $conn = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
 if (!$conn) {

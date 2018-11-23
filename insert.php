@@ -11,9 +11,9 @@ $dept=$_POST['dept'];
 if (!empty($name) || !empty($collage) || !empty($dept) || !empty($email) ||
 !empty($event1) || !empty($phone)) {
  $host = "localhost";
-    $dbUsername = "id6636891_guruprasath";
-    $dbPassword = "1234king";
-    $dbname = "id6636891_aameccse";
+    $dbUsername = "user";
+    $dbPassword = "pass";
+    $dbname = "name";
     //create connection
     $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);
     if (mysqli_connect_error()) {

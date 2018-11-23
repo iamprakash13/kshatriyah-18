@@ -1,7 +1,7 @@
 <?php
-     $dbUser = "id6636891_guruprasath";
-$dbPass = "1234king";
-$dbDatabase = "id6636891_aameccse";
+     $dbUser = "user";
+$dbPass = "pass";
+$dbDatabase = "name";
 $dbHost = "localhost";
 
 /* @var $dbConn type */
